@@ -11,7 +11,7 @@ const render = () => {
     }
     const hexSet = "0123456789ABCDEF";
     color = "";
-    for (var i = 0; i < 6; i++) {
+    for (let i = 0; i < 6; i++) {
         color += hexSet[Math.floor(Math.random() * 16)];
     }
     console.log(color);
